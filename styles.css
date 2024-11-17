@@ -1,0 +1,92 @@
+/* Basic reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+}
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f7f7f7;
+    overflow-x: hidden;
+}
+
+nav{
+    height: 15vh;
+  width: 100vw;
+  background-color: #FFFFFF;
+  position: sticky;
+
+}
+
+.immg{
+    height: 50%;
+    width: 10VW;
+}
+.line{
+    object-position: left;
+    
+
+}
+.course{
+    height: 100vh;
+}
+
+.cb{
+    background-image: url(/img/asset\ 35.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.cb2{
+    background-image: url(/img/asset\ 33.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.slider{
+    overflow: hidden;
+    white-space: nowrap;
+    height: 25vh;
+    width: 100vw;
+    border-bottom: 1px solid rgb(198, 199, 198);
+  
+}
+.any{
+    animation: ani 20s linear 2s infinite forwards;
+    overflow-x: hidden;
+    display: flex;
+    height: 100%;
+    display: inline-block;
+    
+
+
+}
+.any>img{
+    height: 80%;
+    width: 150%;
+
+   
+}
+@keyframes ani {
+   0%{
+    transform: translateX(0);
+   }
+   100%{
+    transform: translateX(-100%);
+   }
+    
+}
+.rnd{
+    background-image: url(/img/asset\ 38.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 40vh;
+    
+}
+
